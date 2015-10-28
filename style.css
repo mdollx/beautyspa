@@ -78,19 +78,34 @@ h1{
   margin-top : -25px;
  }   
 
+
 .times   { 
   margin-bottom:50px;
+  margin-right: 130px;
+
+
 }
 
-.time-slot input   { display:none; }
+.time-slot {
+position: relative;
+left: -150px;
+margin-right: -40px;
+float: left;
+  display: inline-block;
+  margin-top:;
+   
+
+}
+.time-slot input   { display: none; }
 .time-slot label   { 
-  padding:5px 10px; 
-  color:#FFF; 
+  padding:7px 20px; 
+color:#FFF; 
   cursor:pointer; 
   background:#EEE; 
-
-  border-radius:5x; 
-  transition:0.3s ease all;
+  float: left;
+text-align: center;
+border-radius:5x; 
+transition:0.3s ease all;
   -moz-transition:0.3s ease all;
   -webkit-transition:0.3s ease all;
 }
@@ -111,6 +126,23 @@ h1{
   -moz-animation:flashAvailable 0.5s ease; 
   -webkit-animation:flashAvailable 0.5s ease; 
 }
+
+.checkbox label{
+    text-align:center;
+    display:block;
+      -ms-transform: scale(2); 
+  -moz-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  -o-transform: scale(2); 
+  transform: scale(2); 
+    
+}
+
+#mc_embed_signup .mc-field-group.input-group input {
+  display:inline; 
+  width:200px; 
+  border:none;}
+
 .text-center {
   color: #C1B383;
 }
@@ -121,6 +153,24 @@ p {
   text-align: center;
 }
 
+.styled-select select {
+  font-size: 16px;
+}
+
+.date {
+  margin-left: -30px;
+  margin-top: -20px;
+
+}
+
+.form {
+  width:590px;
+  height:590px;
+  padding:50px;
+  border:3px solid #C1B383;
+  margin-left:380px;
+  box-shadow: 5px 5px 5px 5px #888888";
+}
 
 @keyframes flashBooked {
   0%, 100% { background:#f2dede; transform:scale(1); }
