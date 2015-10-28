@@ -100,8 +100,9 @@
         </a>
 </head>
 <body>
-<div class="section-colored">
+<div style="margin-bottom: 30px;" class="section-colored">
     <div class="services">
+    <h2 style="margin-top: -27px; margin-left: 500px;">Services</h2>
        <div class="col-sm-8">
        <a id="services"><img src="images/services.jpg"></img></a>
                 </div>
@@ -110,18 +111,17 @@
           </div>
  <div class="container">
     <div class="page-header text-center">
-        <a id="products"><h1>Products We Carry</h1></a>
-            <img src="images/product1.jpg"></img>
-            <img src="images/product2.jpg"></img>
-            <img src="images/product3.jpg"></img>
-            <img src="images/product4.jpg"></img>
+        <a id="products"> <div class="products">
+      <img src="images/products.jpg"></img></a>
+                </div></a>
+           
  </div>
 </div>
 
-<div style="margin-top: -1.5em; height: 33em;" class="section-colored-bot">
+<div class="section-colored-bot">
     <div class="facilities" text-center>
             <a id="facilities"><h2>Facilities</h2></a>
-          </div>
+          </div><br/>
            <header id="myCarousel" class="carousel slide">
      <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -181,7 +181,7 @@
 <div id="mc_embed_signup" >
   <form action="//mitsukodoll.us12.list-manage.com/subscribe/post?u=c4c795fdfd05114225ff55098&amp;id=8f06620151" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
- <div class="form">
+ <div style="box-shadow: 5px 5px 5px 5px #888888;" class="form">
 <div class="container" ng-app="scheduleApp" ng-controller="mainController">
 <div class="mc-field-group">
 <div class="date">
@@ -207,11 +207,11 @@
   </p> 
 
     <div class="mc-field-group">
-      <label for="mce-FNAME">Name:</label></br>
+      <label for="mce-FNAME">Name: *</label></br>
   <input type="text" value="" name="FNAME" class="" id="mce-FNAME" size "10px" >
 </div>
 <div class="mc-field-group">
-  <label for="mce-EMAIL">Email Address:</label></br>
+  <label for="mce-EMAIL">Email Address: *</label></br>
   <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" size="50">
 </div>
 <div class="mc-field-group size1of2">
@@ -239,7 +239,16 @@
   <option>Glam Squad (Tatoo Make-up)</option>
   <option>Glam Squad (Make-Over)</option>
 
-</select>
+</select><br/><br/>
+<select name="Provider">
+  <option>Choose Your Provider</option>
+  <option>Jenna</option>
+  <option>Tracy</option>
+  <option>Mary</option>
+  <option>Elijah</option>
+  <option>Charlene</option>
+  </select>
+
 </div><br/>
   <div id="mce-responses" class="clear">
     <div class="response" id="mce-error-response" style="display:none"></div>
@@ -256,6 +265,15 @@
  </div>
 </div>
 </div>
+<div class="section-colored">
+   <div class="staff">
+       <h2 style="margin-left: 700px;">Our Staff<h2/>
+       <div class="col-sm-8">
+       <a id="services"><img src="images/staff.jpg"></img></a>
+                </div>
+        </div>
+        </div>
+          </div>
 
   <script>
     $('.carousel').carousel({

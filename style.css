@@ -34,7 +34,7 @@ h1{
 .section,
 .section-colored {
     padding: 30px;
-    margin-top: -59px;
+    margin-top: -43px;
     width: 1265px;
     height: 620px;
     background-color: #C1B383;
@@ -69,6 +69,7 @@ h1{
 }
     .section-colored-bot {
    width: 1265px;
+   padding-bottom: 80px;
         background-color: #C1B383;
     }
  .facilities h2{
@@ -77,6 +78,12 @@ h1{
   margin-bottom: 20px;
   margin-top : -25px;
  }   
+ .products {
+  margin-left: -250px;
+  height: 725px;
+  margin-top: -120px;
+
+ }
 
 
 .times   { 
@@ -152,6 +159,16 @@ h2 {
 p {
   text-align: center;
 }
+.staff {
+  margin-top: -40px;
+  margin-left: -160px;
+}
+
+.staff h2 {
+
+}
+
+
 
 .styled-select select {
   font-size: 16px;
@@ -165,12 +182,15 @@ p {
 
 .form {
   width:590px;
-  height:590px;
+  height:620px;
   padding:50px;
+  margin-bottom: 100px;
   border:3px solid #C1B383;
   margin-left:380px;
   box-shadow: 5px 5px 5px 5px #888888";
+
 }
+
 
 @keyframes flashBooked {
   0%, 100% { background:#f2dede; transform:scale(1); }
