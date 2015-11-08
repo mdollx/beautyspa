@@ -22,19 +22,21 @@
     <script src="app.js"></script>
 
     <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/">Beauty Spa</a>
-        </div>
+      <div class="nav">
+        <!--<div class="container">-->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">Beauty Spa</a>
+          </div>
 
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#facilities">Facilities</a></li>
-          <li><a href="#schedule">Schedule Appointment</a></li>
-        </ul>
-      </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#schedule">Schedule Appointment</a></li>
+          </ul>
+        </div>
+      <!--</div>-->
     </nav>
 
     <div class="social">
@@ -200,7 +202,7 @@
                 <br/>
 
                 <div class="row times">
-                  <td class='checkbox'> //TD tag should be within a table.
+                  <td class='checkbox'> <!--TD tag should be within a table.-->
                     <div class="col-sm-4 col-md-8" ng-repeat="day in days">
                       <div class="time-slot" ng-repeat="slot in day.slots">
                         <label for="{{ day.name }}-{{ $index }}">{{ slot.time }}<br>
@@ -221,7 +223,7 @@
 
             <div class="mc-field-group">
               <label for="mce-FNAME">Name: *</label></br>
-              <input type="text" value="" name="FNAME" class="" id="mce-FNAME" size "10px" >
+              <input type="text" value="" name="FNAME" class="" id="mce-FNAME" size="10px" >
             </div>
             <div class="mc-field-group">
               <label for="mce-EMAIL">Email Address: *</label></br>
